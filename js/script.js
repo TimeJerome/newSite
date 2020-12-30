@@ -27,7 +27,7 @@ if(error===0){
             form.classList.remove('_sending');
 
     }else{
-        alert("Ошибка");
+       /* alert("Ошибка");*/
         form.classList.remove('_sending');
 
     }
