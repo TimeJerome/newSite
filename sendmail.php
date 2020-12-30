@@ -11,14 +11,14 @@ $mail->setLanguage('ru', 'phpmailer/language/');
 $mail->IsHtml(true);
 
 
-$mail->isSMTP();
+/*$mail->isSMTP();
 $mail->SMTPAuth = true;
 $mail->SMTPDebug = 2;
  
 $mail->Host = 'ssl://smtp.gmail.com';
 $mail->Port = 465;
 $mail->Username = 'televizorkuhonnyj9@gmail.com';
-$mail->Password = 'darktime12';
+$mail->Password = 'darktime12';*/
 
 $mail->setFrom('televizorkuhonnyj9@gmail.com','Заказчик');
 
