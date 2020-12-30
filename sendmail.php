@@ -8,7 +8,16 @@ require 'phpmailer/src/PHPMailer.php';
 $mail = new PHPMailer(true);
 $mail->CharSet = 'UTF-8';
 $mail->setLanguage('ru', 'phpmailer/language/');
-$mail->IsHtml(true);
+/*$mail->IsHtml(true);*/
+
+$mail->isSMTP();
+$mail->SMTPAuth = true;
+$mail->SMTPDebug = 0;
+ 
+$mail->Host = 'ssl://smtp.gmail.com';
+$mail->Port = 465;
+$mail->Username = 'televizorkuhonnyj9@gmail.com';
+$mail->Password = 'darktime12';
 
 $mail->setFrom('televizorkuhonnyj9@gmail.com','Заказчик');
 
