@@ -10,9 +10,10 @@ $mail->CharSet = 'UTF-8';
 $mail->setLanguage('ru', 'phpmailer/language/');
 /*$mail->IsHtml(true);*/
 
+
 $mail->isSMTP();
 $mail->SMTPAuth = true;
-$mail->SMTPDebug = 0;
+$mail->SMTPDebug = 2;
  
 $mail->Host = 'ssl://smtp.gmail.com';
 $mail->Port = 465;

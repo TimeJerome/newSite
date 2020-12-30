@@ -420,6 +420,7 @@ body {
                      .type__element{
                       flex: 1 1 90%;
                       margin: 0 auto;
+                      width: 100%;
                       } }
 
 
@@ -711,8 +712,9 @@ body {
                             left: ;
                             width: 100%;
                             height: 100%;
+                            border-radius: 40px;
                            
-                            background: white  url(../Img/Load.gif) 50% 0 no-repeat ;
+                            background: white  url(../Img/Load.gif) 50% 50% no-repeat ;
                             opacity: 0;
                             visibility: hidden;
                             transition: all 0.5s ease 0s;
