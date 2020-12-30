@@ -26,11 +26,11 @@ if(error===0){
             form.reset();
             form.classList.remove('_sending');
 
-    }else{
-       /* alert("Ошибка");*/
+    }/*else{
+        alert("Ошибка");
         form.classList.remove('_sending');
 
-    }
+    }*/
 
 } else{
     alert('Заполните обязательные поля ');
